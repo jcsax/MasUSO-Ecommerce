@@ -1,0 +1,22 @@
+/* Fonts:*/
+p {
+    font-family: 'nexa-light', JejuGothic, sans-serif;
+}
+/* Colores: */
+h1 {
+    color: #000000;
+    position: static; left: 5%
+}
+h2 {
+    color: #808080;
+    position: static; left: 5%
+}
+h3{
+    color: #573422;
+    position: static; left: 10%
+}
+
+body {
+    background-color: #EDEDEB,
+    
+}
