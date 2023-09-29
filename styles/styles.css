@@ -5,18 +5,43 @@ p {
 /* Colores: */
 h1 {
     color: #000000;
-    position: static; left: 5%
 }
 h2 {
     color: #808080;
-    position: static; left: 5%
 }
 h3{
     color: #573422;
-    position: static; left: 10%
 }
 
 body {
-    background-color: #EDEDEB,
-    
+    background-image: url(../assets/img/Fondo1.png);
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: top center;
+    background-color: #EDEDEB;
 }
+
+.banner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 170px;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+    transform: translate(-50%, -50%);
+}
+
+/* .carousel {
+    max-width: 600px;
+    margin: auto;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto; 
+}*/
