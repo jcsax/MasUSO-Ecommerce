@@ -12,12 +12,15 @@ const products = [
     },
 ]
 
-
 app.get('/', (req, res) => {
-    res.send('index.html')
+    res.send(products)
 })
 
 app.use('/', express.static('+USO Landing'))
+
+app.get('/products', (req, res) => {
+    res.send(products)
+} )
 
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
