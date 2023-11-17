@@ -18,6 +18,7 @@ body {
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 2;
 }
 
 .logo {
@@ -28,6 +29,11 @@ height: 90px;
 .nav{
     display: flex;
     justify-content: space-between;
+}
+@import url('https://fonts.cdnfonts.com/css/nexa-bold');
+/* Fonts:*/
+p {
+    font-family: 'Nexa', JejuGothic, sans-serif;
 }
 
 .navLink{
@@ -119,3 +125,90 @@ left:0;
 }
 }
 
+
+/* Colores: */
+h1 {
+    color: #000000;
+}
+h2 {
+    color: #808080;
+}
+h3{
+    color: #573422;
+}
+
+section{
+    margin-top: 200px;
+}
+
+.link{
+    text-decoration: none;
+}
+.link:visited{
+    color: white;
+}
+body {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    background-image: url(../assets/img/Fondo1.png);
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position: top center;
+    background-attachment: scroll;
+    background-color: #EDEDEB;
+}
+.b-products{
+    background-color: #EDEDEB;
+}
+img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* margin: 0 auto; */
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9); */
+}
+
+.slider {
+    aspect-ratio: 10 / 16;
+    width: 300px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.slider img {
+    width: 100%;
+    left: 0;
+    position: sticky;
+    object-fit: cover;
+    border-radius: 5px;
+    scroll-snap-align: center;
+    }
+
+.banner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 170px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+.banner-products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descripton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
